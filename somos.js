@@ -14,7 +14,20 @@ var proyecciones = [{
 }, {
     fecha: new Date(2015, 7, 1, 0, 0),
     habitantes: 43131966
+}, {
+    fecha: new Date(2016, 7, 1, 0, 0),
+    habitantes: 43590368
+}, {
+    fecha: new Date(2017, 7, 1, 0, 0),
+    habitantes: 44044811
+}, {
+    fecha: new Date(2018, 7, 1, 0, 0),
+    habitantes: 44494502
+}, {
+    fecha: new Date(2019, 7, 1, 0, 0),
+    habitantes: 44938712
 }];
+
 
 function margenes(fecha) {
     if (fecha < proyecciones[0].fecha) return "fecha anterior a proyecciones, buscar fuente con datos previos";
