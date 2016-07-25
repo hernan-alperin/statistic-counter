@@ -6,27 +6,28 @@ function separadorDeMiles(x) {
 }
 
 var proyecciones = [{
-    fecha: new Date(2013, 7, 1, 0, 0),
+    fecha: new Date(2013, 6, 1, 0, 0), // mes 0-11
     habitantes: 42202935
 }, {
-    fecha: new Date(2014, 7, 1, 0, 0),
+    fecha: new Date(2014, 6, 1, 0, 0),
     habitantes: 42669500
 }, {
-    fecha: new Date(2015, 7, 1, 0, 0),
+    fecha: new Date(2015, 6, 1, 0, 0),
     habitantes: 43131966
 }, {
-    fecha: new Date(2016, 7, 1, 0, 0),
+    fecha: new Date(2016, 6, 1, 0, 0),
     habitantes: 43590368
 }, {
-    fecha: new Date(2017, 7, 1, 0, 0),
+    fecha: new Date(2017, 6, 1, 0, 0),
     habitantes: 44044811
 }, {
-    fecha: new Date(2018, 7, 1, 0, 0),
+    fecha: new Date(2018, 6, 1, 0, 0),
     habitantes: 44494502
 }, {
-    fecha: new Date(2019, 7, 1, 0, 0),
+    fecha: new Date(2019, 6, 1, 0, 0),
     habitantes: 44938712
 }];
+
 
 
 function margenes(fecha) {
