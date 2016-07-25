@@ -75,9 +75,9 @@ function somos() {
     var dias = Math.floor(horas / 24);
     var horas_s = horas % 24;
 
-    document.getElementById('texto').innerHTML =
-        "Ahora somos aproximadamente " + cuantos + " habitantes";
-    if (tiempo > 0) document.getElementById('texto').innerHTML += " y pasaron " + tiempoPasado(tiempo * grano) + " desde la última proyección oficial usada.";
+    document.getElementById('texto').textContent = "Ahora somos aproximadamente " + cuantos + " habitantes";
+    if (tiempo > 0) document.getElementById('texto').textContent += " y pasaron " + tiempoPasado(tiempo * grano) + " desde la última proyección oficial usada.";
+
 
     setTimeout(function () {
         somos();
